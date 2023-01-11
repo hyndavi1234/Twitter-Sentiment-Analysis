@@ -19,7 +19,7 @@ Data cleaning and pre-processing is the crucial foremost step in any data driven
 ### Data Analysis
 Values of class {-1, 0, 1} are for negative, neutral, and positive classes respectively.
 
-![github image]()
+![github image](https://user-images.githubusercontent.com/34919619/211905884-573695e0-d337-485c-9399-3f9fccc45bd5.png)
 
 ### Feature Engineering
 Applied different vectorizations on the text data suchh as Bag-of-words, TF-IDF, pretrained Word2Vec (200 Dimensions, 300 Dimensions), TF-IDF with Word2Vec 300 Dim. 
@@ -44,7 +44,7 @@ Following are the evaluation metrics captured for all the models except Voting C
 ![github image](https://user-images.githubusercontent.com/34919619/211873449-643c85c1-fbff-4685-aa23-c00ff1bb83f6.png)
 
 For Voting Classifier, following are the obtained results for both datasets:
-![github image]()
+![github image](https://user-images.githubusercontent.com/34919619/211905888-ff140f7e-aa64-4b96-b2c6-51ee83aed1fa.png)
 
 ## Conclusion
 Obama Dataset: Using the Voting classifier with W2V-300 dimensions, we obtained the maximum accuracy of 0.64 and a good balance of precision, recall, and F-1 score. As a result, we finalized it as the model for the dataset.
